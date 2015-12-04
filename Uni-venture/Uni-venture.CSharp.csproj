@@ -79,7 +79,6 @@
     <Compile Include="Assets\Script\PlayerAnimationController.cs" />
     <Compile Include="Assets\Script\RunUnityChanController.cs" />
     <Compile Include="Assets\Script\Title.cs" />
-    <Compile Include="Assets\Script\UnityChanController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
