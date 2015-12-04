@@ -71,6 +71,7 @@
     <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\SceneLoadScript.cs" />
     <Compile Include="Assets\Script\EnemyController.cs" />
+    <Compile Include="Assets\Script\EnemyRandomWalker.cs" />
     <Compile Include="Assets\Script\FPSCameraController.cs" />
     <Compile Include="Assets\Script\FollowPlayer.cs" />
     <Compile Include="Assets\Script\GameController.cs" />

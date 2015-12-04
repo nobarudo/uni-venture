@@ -14,23 +14,17 @@ public class EnemyController : MonoBehaviour {
 	void Update () {
         int Rand = Random.Range(0, 200);
 
-        if (Rand <= 50)
+        if (Rand <= 10)
         {
-            transform.Rotate(0,30,0);
-        } else if (Rand > 50 && Rand <= 100)
+            transform.Rotate(0,90,0);
+        } else if (Rand <= 20)
         {
-            transform.Rotate(0, -30, 0);
+            transform.Rotate(0, -90, 0);
         }
 
-        if (Rand >= 150)
+        if (Rand == 10)
         {
-            transform.LookAt(player.transform);
-            Debug.Log("Tracking");
-        }
-
-        if (Rand == 101)
-        {
-            transform.Rotate(0, 90, 0);
+            transform.Rotate(0, 180, 0);
         }
 
         transform.position += transform.forward * (0.06f * SPEED);
