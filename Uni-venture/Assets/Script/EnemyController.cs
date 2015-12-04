@@ -4,7 +4,6 @@ using System.Collections;
 public class EnemyController : MonoBehaviour {
     public int  SPEED = 10;
     public GameController gameController;
-    public GameObject gamemaster;
     public GameObject player;
 
     // Use this for initialization
@@ -17,15 +16,15 @@ public class EnemyController : MonoBehaviour {
 
         if (Rand <= 10)
         {
-            transform.Rotate(new Vector3(0, 1, 0), 30);
+            transform.Rotate(0,30,0);
         } else if (Rand > 10 && Rand <= 20)
         {
-            transform.Rotate(new Vector3(0, 1, 0), -30);
+            transform.Rotate(0, -30, 0);
         }
 
         if (Rand == 100)
         {
-            transform.Rotate(new Vector3(0, 1, 0), 90);
+            transform.Rotate(0, 90, 0);
         }
 
         transform.position += transform.forward * (0.06f * SPEED);

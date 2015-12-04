@@ -16,7 +16,10 @@ public class GameController : MonoBehaviour
         if (count == 0)
         {
             GameClearLabel.SetActive(true);
-            Application.LoadLevel("Stage01");
+            if (Input.GetKey(KeyCode.Space))
+            {
+                Application.LoadLevel("title");
+            }
         }
         if (gameOver)
         {
