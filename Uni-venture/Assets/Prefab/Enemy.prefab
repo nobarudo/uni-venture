@@ -1139,7 +1139,7 @@ GameObject:
   - 54: {fileID: 5429588}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3014,7 +3014,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146568}
-  m_LocalRotation: {x: -.0937465429, y: .697855175, z: .707469046, w: .0608067028}
+  m_LocalRotation: {x: -.0937465429, y: .697855175, z: .707469046, w: .0608066991}
   m_LocalPosition: {x: -.0554340295, y: .00173068431, z: .0986537337}
   m_LocalScale: {x: 1.00000036, y: 1.0000006, z: 1.00000048}
   m_Children:
@@ -3885,8 +3885,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139364}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.8795214, y: 72.0135956, z: 43.5622177}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.13011265, y: -.477020264, z: -1.1158371}
+  m_LocalScale: {x: 1.11250031, y: 1, z: 1.08750033}
   m_Children:
   - {fileID: 497890}
   m_Father: {fileID: 0}
@@ -6007,10 +6007,10 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: .0500000007
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!95 &9588868
 Animator:
@@ -6052,7 +6052,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .200000003
+  m_Radius: .5
   m_Height: 1.60000002
   m_Direction: 1
   m_Center: {x: 0, y: .800000012, z: 0}

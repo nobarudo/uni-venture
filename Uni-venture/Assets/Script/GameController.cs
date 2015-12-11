@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
     public GameObject GameClearLabel;
     public GameObject unityChan;
     public GameObject gameOverText;
+    public GameObject Text;
     private bool gameOver = false;
 	
 	void Update () {
@@ -24,9 +25,14 @@ public class GameController : MonoBehaviour
         if (gameOver)
         {
             gameOverText.SetActive(true);
+            Text.SetActive(true);
             if (Input.GetKey(KeyCode.Space))
             {
                 Application.LoadLevel("title");
+            }
+            if (Input.GetKey(KeyCode.R))
+            {
+                Application.LoadLevel("stage01");
             }
         }
 	}
